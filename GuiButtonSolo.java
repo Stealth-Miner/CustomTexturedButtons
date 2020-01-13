@@ -8,7 +8,7 @@ import net.minecraft.util.ResourceLocation;
 public class GuiButtonName extends GuiButton
 {
 	
-    protected static final ResourceLocation KubytbuttonTextures = new ResourceLocation("directory/buttons.png");
+    protected static final ResourceLocation CustomButtons = new ResourceLocation("directory/buttons.png");
 	
     public GuiButtonName(int buttonID, int xPos, int yPos)
     {
@@ -22,7 +22,7 @@ public class GuiButtonName extends GuiButton
     {
         if (this.visible)
         {
-            mc.getTextureManager().bindTexture(KubytbuttonTextures);
+            mc.getTextureManager().bindTexture(CustomButtons);
             GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
             boolean flag = mouseX >= this.xPosition && mouseY >= this.yPosition && mouseX < this.xPosition + this.width && mouseY < this.yPosition + this.height;
             // Y axis of image Location \|/
