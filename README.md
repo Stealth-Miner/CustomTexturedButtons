@@ -1,5 +1,5 @@
 # CustomTexturedButtons
-Small tutorial to get custom buttons for your main menu..
+Short tutorial on how to create custom buttons for your main menu (or any GUI)..
 
 1]
   Download the template image and the template class and put it in your desired directory. (you will also have to set the directory in the class as it uses ResourceLocation)
