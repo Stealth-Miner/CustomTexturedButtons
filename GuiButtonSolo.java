@@ -1,16 +1,16 @@
-package kubyt.betaClasses;
+package your.package;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;
 
-public class GuiButtonSolo extends GuiButton
+public class GuiButtonName extends GuiButton
 {
 	
-    protected static final ResourceLocation KubytbuttonTextures = new ResourceLocation("kubyt/gui/buttons.png");
+    protected static final ResourceLocation KubytbuttonTextures = new ResourceLocation("directory/buttons.png");
 	
-    public GuiButtonSolo(int buttonID, int xPos, int yPos)
+    public GuiButtonName(int buttonID, int xPos, int yPos)
     {
         super(buttonID, xPos, yPos, 73, 20, "");
     }
