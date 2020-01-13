@@ -8,7 +8,7 @@ import net.minecraft.util.ResourceLocation;
 public class GuiButtonName extends GuiButton
 {
 	
-    protected static final ResourceLocation CustomButtons = new ResourceLocation("directory/buttons.png");
+    protected static final ResourceLocation CustomButtons = new ResourceLocation("directory/template.png");
 	
     public GuiButtonName(int buttonID, int xPos, int yPos)
     {
